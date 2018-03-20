@@ -1,3 +1,3 @@
 sudo mkdir /etc/sound/
 sudo mv startup.wav /etc/sound/startup.wav
-sudo echo "sleep 3 && aplay /etc/sound/startup.wav">>/etc/rc.local
+sudo echo "sleep 3 && aplay /etc/sound/startup.wav">>/etc/rc.local &
